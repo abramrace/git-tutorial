@@ -10,8 +10,8 @@ class Adder
         int c = a + b;
     }
 
-    void add_float()
+    void add_float(float a, float b)
     {
-        
+        float c = a + b;
     }
 };
