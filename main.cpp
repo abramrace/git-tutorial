@@ -15,8 +15,9 @@ class Adder
         float c = a + b;
     }
 
-    void add_double(double a, double b)
+    double add_double(double a, double b)
     {
-        
+        double c = a + b;
+        return c;
     }
 };
